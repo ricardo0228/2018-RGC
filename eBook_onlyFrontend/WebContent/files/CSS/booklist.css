@@ -1,0 +1,32 @@
+.tableStyle{
+	border:3px solid purple;
+	font-size:20px;
+	margin:10px;
+	background-color:rgba(233,233,233,0.8);
+    text-align: left;
+}
+.pic{
+	width:150px;
+	height:200px;
+	margin:10px;
+	background-color: gray;
+}
+.picStyle{
+	width:170px;
+	border:2px solid purple;
+}
+.detailStyle{
+	width:400px;
+	border:2px solid purple;
+}
+.introduceStyle{
+	width:390px;
+	border:2px solid purple;
+	vertical-align: top;
+	padding: 30px;
+}
+.orderStyle{
+	width:160px;
+	padding: 20px;
+	border:2px solid purple;
+};

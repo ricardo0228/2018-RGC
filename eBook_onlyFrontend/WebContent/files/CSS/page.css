@@ -1,0 +1,26 @@
+body {
+    background: url("../PIC/background.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    center: no-repeat;
+}
+.leftbox{
+    text-align: center;
+    width: 400px;
+    height: 900px;
+    float: left;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.booklist{
+    background-color:rgba(0,0,233,0.3);
+    width: 1200px;
+    height: 800px;
+    float: left;
+    position: absolute;
+    text-align: left;
+    top: 50px;
+    left: 450px;
+    overflow: auto;
+}

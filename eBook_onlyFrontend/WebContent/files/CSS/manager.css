@@ -1,0 +1,60 @@
+body {
+    background: url("../PIC/background.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    center: no-repeat;
+}
+.welcome{
+	text-align:center;
+    font-size: 80px;
+    background-color:rgba(150,200,255,0.3);
+    color: white;
+    width: 900px;
+    height: 120px;
+    float: right;
+    position: absolute;
+    top:-40px;
+    left: 600px;
+}
+.leftbox{
+    text-align: center;
+    background-color:rgba(150,200,255,0.5);
+    width: 300px;
+    height: 320px;
+    float: left;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.option{
+    width: 260px;
+    height: 80px;
+    margin: 20px;
+    position: relative;
+    background-color:rgba(150,200,255,0.9);
+}
+.lstyle{
+    position: relative;
+    font-family:SimHei;
+    font-size: 40px;
+    line-height:80px;
+    text-decoration: none;
+    margin: 0px;
+    color: white;
+}
+.list{
+    background-color:rgba(0,0,233,0.3);
+    width: 1200px;
+    height: 600px;
+    float: left;
+    position: absolute;
+    text-align: left;
+    top: 200px;
+    left: 450px;
+    overflow: auto;
+}
+.frame{
+    width: 1200px;
+    height: 600px;
+    border:0;
+}

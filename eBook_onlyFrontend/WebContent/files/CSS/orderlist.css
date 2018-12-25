@@ -1,0 +1,45 @@
+.tableStyle{
+	border:3px solid purple;
+	font-size:20px;
+	margin:10px;
+	background-color:rgba(233,233,233,0.8);
+    text-align: center;
+}
+.idStyle{
+	width:140px;
+	height: 20px;
+	border:2px solid purple;
+}
+.nameStyle{
+	width:160px;
+	border:2px solid purple;
+}
+.addressStyle{
+	width:250px;
+	border:2px solid purple;
+}
+.phoneStyle{
+	width:200px;
+	border:2px solid purple;
+	padding: 30px;
+}
+.sumStyle{
+	width:100px;
+	border:2px solid purple;
+	padding: 30px;
+}
+.dateStyle{
+	width:150px;
+	border:2px solid purple;
+	padding: 30px;
+}
+.stateStyle{
+	width:100px;
+	border:2px solid purple;
+	padding: 30px;
+}
+.optionStyle{
+	width:100px;
+	border:2px solid purple;
+	padding: 30px;
+}

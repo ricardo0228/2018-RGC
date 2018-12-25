@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+          
+
+<hibernate-mapping package="Entity">
+   <class name="Order" table="order_form">
+      <meta attribute="class-description">
+         Hope I can success. 
+      </meta>
+      <id name="id" type="int" column="order_id">
+         <generator class="native"/>
+      </id>
+      <property name="name" column="recieve_name"/>
+      <property name="address" column="recieve_address"/>
+      <property name="phone" column="recieve_phone"/>
+      <property name="state"/>
+      <property name="place_date"/>
+      <property name="sum"/>
+      <property name="userid" column="user_id"/>
+   </class>
+</hibernate-mapping>
