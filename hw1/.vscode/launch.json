@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WordLadder",
+            "request": "launch",
+            "mainClass": "com.proj1.WordLadder",
+            "projectName": "hw1",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<hw1>",
+            "request": "launch",
+            "mainClass": "com.proj1.App",
+            "projectName": "hw1",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-main<hw1>",
+            "request": "launch",
+            "mainClass": "com.proj1.main",
+            "projectName": "hw1",
+            "console": "externalTerminal"
+        }
+    ]
+}
